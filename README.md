@@ -11,7 +11,7 @@ Bu uygulamada ubuntu:16.04 üstunde yaptım minineti ubuntunun uzerinde kurdum
     4  python mininet/examples/miniedit.py 
     
     
-    bu komutları sirayla işlerseniz mininetiniz kurulmuş olacaktır. 4 satırda işlediyinizde de mininedit çalışacak yeni başlayan arkadaşlar için güzel bir uygulama miniedit mininet in görsel tarafıdır bazı durumlarda mininete  mininet root kullanıcısı eklemeseniz sıkıntı yaşayabilirsiniz  ben vlan yaplandırması kullandığımdan dolayı mininet  kullanmadım .
+    bu komutları sirayla işlerseniz mininetiniz kurulmuş olacaktır. 4 satırda işlediyinizde de miniedit çalışacak yeni başlayan arkadaşlar için güzel bir uygulama miniedit mininet in görsel tarafıdır bazı durumlarda mininete  mininet root kullanıcısı eklemeseniz sıkıntı yaşayabilirsiniz  ben vlan yaplandırması kullandığımdan dolayı mininet  kullanmadım .
     
     
      Herkese iyi çalışmalar.
