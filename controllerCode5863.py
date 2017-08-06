@@ -67,7 +67,7 @@ flow4msg.match.nw_proto = 6
 # ACTIONS---------------------------------
 flow4stripvlan = of.ofp_action_strip_vlan () 
 flow4out = of.ofp_action_output (port = 1)
-flow4msg.actions = [flow5stripvlan, flow4out] 
+flow4msg.actions = [flow4stripvlan, flow4out] 
 #6: 
 switch5 = 0000000000000005
 flow5msg = of.ofp_flow_mod() 
@@ -93,7 +93,7 @@ flow6out = of.ofp_action_output (port = 3)
 flow6msg.actions = [flow6stripvlan, flow6out] 
 
 #8: 
-switch6 = 0000000000000006
+switch7 = 0000000000000006
 flow7msg = of.ofp_flow_mod() 
 flow7msg.cookie = 0 
 flow7msg.priority = 32768
@@ -102,7 +102,7 @@ flow7msg.match.nw_proto = 6
 # ACTIONS---------------------------------
 flow7stripvlan = of.ofp_action_strip_vlan () 
 flow7out = of.ofp_action_output (port = 2)
-flow7msg.actions = [flow6stripvlan, flow7out] 
+flow7msg.actions = [flow7stripvlan, flow7out] 
 
  
 
